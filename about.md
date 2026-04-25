@@ -1,12 +1,12 @@
 ---
-title: About
+title: 소개
 nav_order: 2
 ---
 
-# About
+# 소개
 
-This is a starter page for your blog or documentation site.
+이 블로그는 사진과 짧은 기록을 중심으로 차곡차곡 쌓아 가는 개인 아카이브입니다.
 
-- Update the site title and description in `_config.yml`.
-- Control menu order with the `nav_order` value in front matter.
-- Add more markdown files to create new pages.
+- 풍경이나 건축처럼 시선을 붙잡는 장면을 사진과 함께 남깁니다.
+- 포스트는 `_posts` 폴더에서 날짜형 파일명 규칙으로 관리합니다.
+- 이미지는 `assets/images/posts` 폴더에 올리고 본문에서 연결합니다.

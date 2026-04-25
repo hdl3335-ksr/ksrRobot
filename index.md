@@ -1,22 +1,22 @@
 ---
-title: Home
+title: 홈
 layout: home
 nav_order: 1
 ---
 
-# Welcome
+# KSR Blog
 
-This repository is set up as a GitHub Pages site using the
-[Just the Docs](https://github.com/just-the-docs/just-the-docs) theme.
+사진, 메모, 짧은 감상을 차분하게 정리해 두는 블로그입니다.
 
-## Next steps
-   
-1. Push this repository to GitHub.
-2. In `Settings > Pages > Build and deployment`, set `Source` to `GitHub Actions`.
-3. Update `_config.yml` with your real `url`, `baseurl`, and repository link.
-4. Replace this page with your own homepage content.
+## 둘러보기
 
-## Sample pages
+- [포스트 목록]({{ site.baseurl }}/posts/)
+- [소개]({{ site.baseurl }}/about/)
 
-- [About](./about/)
-- [Posts](./posts/)
+## 최근 글
+
+{% assign latest_posts = site.posts | slice: 0, 5 %}
+{% for post in latest_posts %}
+- [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+  {{ post.date | date: "%Y-%m-%d" }}
+{% endfor %}

@@ -1,5 +1,5 @@
-title: GitHub Pages Blog
-description: Just the Docs theme based GitHub Pages blog
+title: KSR Blog
+description: 사진과 기록을 모아두는 Jekyll 기반 블로그
 theme: just-the-docs
 
 # Update these after you create the GitHub repository.
@@ -8,6 +8,14 @@ url: "https://hdl3335-ksr.github.io"
 baseurl: "/ksrRobot"
 
 permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+      permalink: /posts/:slug/
 
 aux_links:
   Repository: "https://github.com/hdl3335-ksr/ksrRobot"

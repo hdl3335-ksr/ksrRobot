@@ -6,7 +6,7 @@ permalink: /posts/
 
 # Posts
 
-이제 이 페이지는 `_posts` 폴더에 있는 실제 Jekyll 블로그 글 목록을 보여줍니다.
+`_posts` 폴더에 있는 글을 날짜순으로 모아보는 페이지입니다.
 
 ## Latest posts
 
