@@ -1,4 +1,4 @@
-# GitHub Pages Blog
+# GitHub Pages Blog  
 
 This repository is configured for a GitHub Pages site using the
 [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme.
