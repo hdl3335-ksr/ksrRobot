@@ -19,4 +19,4 @@ This repository is set up as a GitHub Pages site using the
 ## Sample pages
 
 - [About](./about/)
-- [First post](./posts/first-post/)
+- [Posts](./posts/)

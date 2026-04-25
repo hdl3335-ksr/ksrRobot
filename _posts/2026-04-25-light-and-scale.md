@@ -1,7 +1,7 @@
 ---
+layout: default
 title: 빛과 스케일을 담는 순간
-parent: Posts
-nav_order: 2
+date: 2026-04-25 18:00:00 +0900
 ---
 
 # 빛과 스케일을 담는 순간
