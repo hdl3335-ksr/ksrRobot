@@ -15,10 +15,7 @@ This repository is configured for a GitHub Pages site using the
 1. Push this repository to GitHub.
 2. Open `Settings > Pages`.
 3. In `Build and deployment`, set `Source` to `GitHub Actions`.
-4. Update `_config.yml`:
-   - set `url` to `https://YOUR-USERNAME.github.io`
-   - set `baseurl` to `/<YOUR-REPO-NAME>` if this is a project site
-   - update `aux_links.Repository` to your actual repository URL
+4. Update `_config.yml` if your repository URL changes.
 
 ## Local preview
 

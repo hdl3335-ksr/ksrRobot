@@ -4,13 +4,13 @@ theme: just-the-docs
 
 # Update these after you create the GitHub repository.
 # If your repo name is different, change baseurl to "/YOUR-REPO-NAME".
-url: ""
-baseurl: ""
+url: "https://hdl3335-ksr.github.io"
+baseurl: "/ksrRobot"
 
 permalink: pretty
 
 aux_links:
-  Repository: "#"
+  Repository: "https://github.com/hdl3335-ksr/ksrRobot"
 
 nav_enabled: true
 search_enabled: true
