@@ -1,5 +1,6 @@
 ---
 title: 소개
+layout: default
 nav_order: 2
 ---
 
