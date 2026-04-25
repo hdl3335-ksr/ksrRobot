@@ -1,0 +1,21 @@
+title: GitHub Pages Blog
+description: Just the Docs theme based GitHub Pages blog
+theme: just-the-docs
+
+# Update these after you create the GitHub repository.
+# If your repo name is different, change baseurl to "/YOUR-REPO-NAME".
+url: ""
+baseurl: ""
+
+permalink: pretty
+
+aux_links:
+  Repository: "#"
+
+nav_enabled: true
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Built with Just the Docs on GitHub Pages."
